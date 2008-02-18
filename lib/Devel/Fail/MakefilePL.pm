@@ -1,5 +1,5 @@
 
-# $Id: MakefilePL.pm,v 1.1.1.1 2008/02/18 03:43:24 Daddy Exp $
+# $Id: MakefilePL.pm,v 1.4 2008/02/18 04:13:51 Daddy Exp $
 
 =head1 NAME
 
@@ -16,7 +16,7 @@ This distribution exists only for testing automatic installers such as cpan and 
 
 =head1 AUTHOR
 
-Martin Thurn
+Martin Thurn, C<mthurn@cpan.org>, L<http://www.sandcrawler.com/SWB/cpan-modules.html>
 
 =cut
 
@@ -24,7 +24,7 @@ package Devel::Fail::MakefilePL;
 use strict;
 use warnings;
 my
-$VERSION = do { my @r = (q$Revision: 1.1.1.1 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
+$VERSION = do { my @r = (q$Revision: 1.4 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
 
 1;
 
