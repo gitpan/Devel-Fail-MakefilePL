@@ -1,5 +1,5 @@
 
-# $Id: MakefilePL.pm,v 1.4 2008/02/18 04:13:51 Daddy Exp $
+# $Id: MakefilePL.pm,v 1.5 2008/03/01 20:41:25 Daddy Exp $
 
 =head1 NAME
 
@@ -24,9 +24,8 @@ package Devel::Fail::MakefilePL;
 use strict;
 use warnings;
 my
-$VERSION = do { my @r = (q$Revision: 1.4 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
+$VERSION = do { my @r = (q$Revision: 1.5 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
 
 1;
 
 __END__
-

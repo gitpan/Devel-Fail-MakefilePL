@@ -1,5 +1,5 @@
 --- 
-abstract: ~
+abstract: a distro that always fails the `perl Makefile.PL` stage
 author: 
   - Martin Thurn, C<mthurn@cpan.org>, L<http://www.sandcrawler.com/SWB/cpan-modules.html>
 distribution_type: module
@@ -8,8 +8,9 @@ license: perl
 meta-spec: 
   url: http://module-build.sourceforge.net/META-spec-v1.3.html
   version: 1.3
+name: Devel-Fail-MakefilePL
 no_index: 
   directory: 
     - inc
     - t
-version: 1.011
+version: 1.012
